@@ -35,7 +35,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #000000;
     font-weight: 900;
 }
 
@@ -80,7 +80,7 @@ main p {
 .container  {
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .box {
@@ -148,7 +148,7 @@ footer address {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -157,13 +157,13 @@ footer a {
     color: #ffffff;
     text-decoration: none;
     font-family: "Roboto";
-    font-size: 19px;
+    font-size: 14px;
     line-height: 24px;
 }
 
 footer p {
     color: #ffffff;
-    font-size: 19px;
+    font-size: 14px;
 }
 
 footer .box_1 {
@@ -172,4 +172,21 @@ footer .box_1 {
 
 body {
     background: url(/assets/img/sky.jpg) center no-repeat;
+}
+
+button {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 46px;
+    border-radius: 15px;
+    font-weight: 700;
+    background: #FFE458;
+    margin-bottom: 100px;
+}
+
+button a {
+    color:black;
+    text-decoration: none;
 }

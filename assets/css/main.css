@@ -75,8 +75,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../img/Fields_Sky_Ear_botany_500656.jpg) center no-repeat;
-    
+    background: url(/assets/img/sky.jpg) center no-repeat;
 }
 
 main h1 {
