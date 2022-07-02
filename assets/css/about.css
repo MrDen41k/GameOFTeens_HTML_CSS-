@@ -36,7 +36,7 @@ header {
 header a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .menu {
@@ -44,7 +44,7 @@ header a {
     padding: 0;
     margin: 0;
     display: flex;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 900;
 }
 
@@ -72,9 +72,9 @@ main {
 main p {
     padding-top: 30px;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 10px;
-    color: #FFE661;
+    color: #c0c656;
 }
 
 .container  {
@@ -93,13 +93,13 @@ main p {
 
 .box h1 {
     margin-bottom: 15px;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
     color: #000000;   
 }
 
 .box p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
     color: #000000;
     padding-top: 5px;
@@ -120,13 +120,13 @@ main p {
 .box-2 h1 {
     margin-bottom: 15px;
     font-weight: 900;
-    font-size: 8px;
+    font-size: 14px;
     line-height: 14px;
     color: #000000;   
 }
 
 .box-2 p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
     font-weight: 900;
     color: #000000;
@@ -134,59 +134,42 @@ main p {
 }
 
 footer {
-    margin-top: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    background-color: #061bff;
-    align-items: flex-end;
-    padding: 20px;
+    background-color: #07080a;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
-
-
-
-footer h2 {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0 0 13px;
-
-}
-
-
 
 footer address {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 19px;
     line-height: 24px;
 }
 
 footer a {
     margin: 8px 0 0;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 19px;
     line-height: 24px;
 }
 
 footer p {
     color: #ffffff;
-    /* font-size: 14px; */
+    font-size: 19px;
 }
 
 footer .box_1 {
     margin-bottom: 0;
 }
 
-.footer {
-    text-decoration: none;
-}
-
-main {
-    /* background: url(/assets/img/sky.jpg) center no-repeat; */
-    text-decoration: none;
+body {
+    background: url(/assets/img/sky.jpg) center no-repeat;
 }

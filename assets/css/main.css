@@ -93,14 +93,12 @@ main h1 {
 
 .box  {
     color: rgb(0, 0, 0);
-    height: 400px;
+    height: 280px;
     width: 300px;
     text-align: center;
     margin: 0 auto;
-    font-size: 18px;
-}
-
-.block1 {
+    font-size: 19px;
+    padding: 25px;
     background-color: #ffe35868;
     border-radius: 13px;
 }
@@ -109,35 +107,29 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90px;
+    margin-top: 150px;
     width: 316px;
     height: 46px;
     border-radius: 15px;
     font-weight: 700;
     background: #FFE458;
-    color:black
+    margin-bottom: 30px;
+}
+
+button a {
+    color:black;
+    text-decoration: none;
 }
 
 footer {
     margin-top: 30px;
     text-align: center;
-    background-color: #061bff;
-    align-items: flex-end;
-    padding: 20px;
+    background-color: #000;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px 20px;
 }
-
-
-
-footer h2 {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0 0 13px;
-
-}
-
 
 
 footer address {
@@ -165,9 +157,4 @@ footer p {
 
 footer .box_1 {
     margin-bottom: 0;
-}
-
-.footer {
-    height: 100px;
-    width: 300px;
 }
