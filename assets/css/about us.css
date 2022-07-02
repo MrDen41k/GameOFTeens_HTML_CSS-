@@ -4,9 +4,10 @@
 
 body {
     margin: 0;
-    background: rgb(44, 44, 44);
+    background-color: #fff;
     background-attachment: fixed;
     position: relative;
+    
 }
 
 body::before {
@@ -48,7 +49,7 @@ header a {
     display: flex;
     font-size: 11px;
     font-weight: 900;
-    
+    transition: 3s;
 }
 
 .menu-link:hover {
@@ -65,7 +66,8 @@ header a {
 
 .Span {
     color: blue;
-    color: yellow;   
+    color: yellow;
+       
 }
 
 main {
@@ -75,59 +77,47 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #000;
+    background: #fff;
+    margin-top: 50px;
 }
 
-main h1 {
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
+.block1, .block3, .block1 {
     text-align: center;
-    padding-top: 120px;
-    padding-left: 70px;
-    padding-right: 70px; 
-    
-}    
 
-.box  {
-    color: rgb(0, 0, 0);
-    height: 350px;
+}
+
+img {
+    height: 300px;
     width: 300px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 19px;
-    padding: 25px;
-    background-color: #FFE458;
-    border-radius: 13px;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 83px;
-    width: 316px;
-    height: 46px;
+.img {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: #7579d878;
+}
+
+main div {
+    margin: 20px;
+    background-color: #7579d878;
     border-radius: 15px;
-    font-weight: 700;
-    background: #FFE458;
-    margin-bottom: 30px;
-}
-
-button a {
-    color:black;
-    text-decoration: none;
+    text-align: center;
+    padding: 10px;
 }
 
 footer {
+    margin-top: 30px;
     text-align: center;
-    background-color: rgb(24, 24, 24);
+    background-color: #000;
     bottom: 0px;
     width: 100%;
-    padding: 30px 20px;
+    padding: 70px 20px;
 }
-
 
 footer address {
     color: #FFFFFF;
@@ -149,7 +139,6 @@ footer a {
 
 footer p {
     color: #ffffff;
-    /* font-size: 14px; */
 }
 
 footer .box_1 {

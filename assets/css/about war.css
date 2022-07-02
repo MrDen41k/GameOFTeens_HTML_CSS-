@@ -84,11 +84,14 @@ main p {
 }
 
 .box {
+    height: 350px;
+    width: 300px;
     font-weight: 900;
     padding: 20px;
     background: #ffe661;
     margin-bottom: 20px;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 .box h1 {
@@ -110,11 +113,17 @@ main p {
     padding-right: 25px;
 }
 
+.container-2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .box-2 {
-    padding: 10px;
+    padding: 20px;
     background: #ffe661;
     margin-bottom: 20px;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .box-2 h1 {
@@ -167,24 +176,4 @@ footer p {
 
 footer .box_1 {
     margin-bottom: 0;
-}
-
-body {
-    background: url(/assets/img/sky.jpg) center no-repeat;
-}
-
-button {
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 46px;
-    border-radius: 15px;
-    font-weight: 700;
-    background: #FFE458;
-    margin-bottom: 100px;
-}
-
-button a {
-    color:black;
-    text-decoration: none;
 }
