@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #000000;
+}
+
+body::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+
+header {
+    width: 100%;
+    padding: 19px 30px;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgba(0,10,255,1) 0%, rgba(255,230,97,1) 68%);
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.menu-link:hover {
+    border-bottom: 3px solid #000aff;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 22px;
+}
+
+span {
+    color: yellow;
+}
+
+main {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 29px;
+    color: #FFE661;
+}
+
+main p {
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 10px;
+    color: #FFE661;
+}
+
+.container  {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.box {
+    font-weight: 900;
+    padding: 20px;
+    background: #ffe661;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.box h1 {
+    margin-bottom: 15px;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;   
+}
+
+.box p {
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.container-2  {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.box-2 {
+    padding: 10px;
+    background: #ffe661;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.box-2 h1 {
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 8px;
+    line-height: 14px;
+    color: #000000;   
+}
+
+.box-2 p {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 900;
+    color: #000000;
+    padding-top: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #061bff;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+
+
+footer h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 13px;
+
+}
+
+
+
+footer address {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer a {
+    margin: 8px 0 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer p {
+    color: #ffffff;
+    /* font-size: 14px; */
+}
+
+footer .box_1 {
+    margin-bottom: 0;
+}
+
+.footer {
+    text-decoration: none;
+}
+
+main {
+    /* background: url(/assets/img/sky.jpg) center no-repeat; */
+    text-decoration: none;
+}

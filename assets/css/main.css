@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(44, 44, 44);
+    background-attachment: fixed;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+
+header {
+    width: 100%;
+    padding: 19px 50px;
+    background: #fff;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: linear-gradient(90deg, rgba(0,10,255,1) 0%, rgba(255,230,97,1) 68%);
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 10px;
+    font-weight: 900;
+    
+}
+
+.menu-link:hover {
+    border-bottom: 3px solid #000aff;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 22px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.Span {
+    color: blue;
+    color: yellow;   
+}
+
+main {
+    position: relative;
+    padding: 50px 25px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../img/Fields_Sky_Ear_botany_500656.jpg) center no-repeat;
+    
+}
+
+main h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 70px;
+    padding-right: 70px; 
+    
+}    
+
+.box  {
+    color: rgb(0, 0, 0);
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.block1 {
+    background-color: #ffe35868;
+    border-radius: 13px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 316px;
+    height: 46px;
+    border-radius: 15px;
+    font-weight: 700;
+    background: #FFE458;
+    color:black
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #061bff;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+
+
+footer h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 13px;
+
+}
+
+
+
+footer address {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer a {
+    margin: 8px 0 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer p {
+    color: #ffffff;
+    /* font-size: 14px; */
+}
+
+footer .box_1 {
+    margin-bottom: 0;
+}
+
+.footer {
+    height: 100px;
+    width: 300px;
+}
